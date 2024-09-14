@@ -15,9 +15,12 @@
 }
 
 /* Shared styles */
+.align-center{
+    text-align: center;
+}
 .font-style {
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2.15rem;
 }
 .btn-primary {
     padding: 18px 35px;
@@ -43,6 +46,7 @@ font-weight: bold;
     font-weight: bold;
     padding: 30px 0 20px 0;
 }
+
     /* direct tag styles */
 header {
     background-image: url(images/developer.png), url(images/header_bg.png);
@@ -67,7 +71,7 @@ main section{
     color: rgba(253, 110, 10, 1);
 }
 /* higher secondary color */
-.dark-four{
+.dark-four,.resume-description{
     color: rgba(117, 117, 117, 1);
 }
 /* background color */
@@ -98,6 +102,10 @@ nav ul li {
 ul li a {
     text-decoration: none;
     font-size: 1.2rem;
+}
+.mary-at-nav{
+    font-weight: 800;
+    font-size: 2.8rem;
 }
 /* banner information */
 .banner-section {
@@ -173,6 +181,42 @@ ul li a {
 .skill-card p{
     max-width: 200px;
 }
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-main-titles{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+    padding-top: 110px;
+}
+.resume-heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:rgba(71, 71, 71, 1);
+    padding: 30px 0 10px 0;
+}
+.institutions{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+    padding-bottom: 20px;
+}
+.experience-bg,.educational-bg{
+    padding-right: 20px;
+    max-width: 511px;
+}
+.resume hr{
+    margin: 30px 5px;
+    color: rgba(209, 209, 209, 1);
+}
+
+.resume-btn{
+    margin-top:50px;
+}
+
 /* responsive for small devices */
 @media screen and (max-device-width: 576px) {
     nav{
