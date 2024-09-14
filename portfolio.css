@@ -80,8 +80,7 @@ footer{
     color: rgba(117, 117, 117, 1);
 }
 /* background color */
-.
- {
+ .bg-color{
     background-color: rgba(255, 248, 243, 1);
 }
 
@@ -249,17 +248,38 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 /* responsive for small devices */
 @media screen and (max-device-width: 576px) {
-    nav{
+    nav, .resume-container,.skill-card-container,.about-items,.banner-section,nav ul,nav,footer{
         flex-direction: column;
     }
-    /* nav ul li{
-        padding-bottom: 200px;
-    } */
+    header{
+        background-image: none;
+    }
+    .banner-img,.footer-colum{
+        width: 100%;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .about-section,.resume-container, .banner-section,.what-i-do-info,.resume-main-titles,footer{
+        margin: 20px;
+        padding: 20px;
+    }
 }
 
 /* responsive for medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
-    nav{
+    nav,.banner-section{
         flex-direction: column;
-    }  
+        gap: 20px;
+    } 
+main section{
+    margin: 20px;
+    padding: 20px;
+} 
+.skill-card-container{
+    flex-wrap: wrap;
+}
 }
