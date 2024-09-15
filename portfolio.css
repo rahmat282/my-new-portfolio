@@ -4,7 +4,7 @@
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
+        "wdth" 100;
     max-width: 1600px;
 }
 
@@ -15,56 +15,65 @@
 }
 
 /* Shared styles */
-.align-center{
+.align-center {
     text-align: center;
 }
+
 .font-style {
     font-weight: bold;
     font-size: 2.15rem;
 }
+
 .btn-primary {
     padding: 18px 35px;
     font-weight: bold;
     font-size: 1.2rem;
-    background-color: rgba(253, 110, 10, 1);;
+    background-color: rgba(253, 110, 10, 1);
+    ;
     color: white;
     border: none;
     border-radius: 5px;
 }
-.section-description{
+
+.section-description {
     color: rgba(117, 117, 117, 1);
     padding: 30px 0px 50px 0px;
     font-size: 1.2rem;
 }
 
-.item-description{
+.item-description {
     font-size: 1.2rem;
-font-weight: bold;
+    font-weight: bold;
 }
-.item-description-two{
+
+.item-description-two {
     font-size: 1.2rem;
     font-weight: bold;
     padding: 30px 0 20px 0;
 }
 
-    /* direct tag styles */
+/* direct tag styles */
 header {
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin: 130px 0;
 }
-footer{
+
+footer {
     display: flex;
     padding: 130px 230px;
     gap: 100px;
 }
+
 /* colors */
 /* primary color */
 .dark-two {
@@ -75,12 +84,15 @@ footer{
 .dark-three {
     color: rgba(253, 110, 10, 1);
 }
+
 /* higher secondary color */
-.dark-four,.resume-description{
+.dark-four,
+.resume-description {
     color: rgba(117, 117, 117, 1);
 }
+
 /* background color */
- .bg-color{
+.bg-color {
     background-color: rgba(255, 248, 243, 1);
 }
 
@@ -92,10 +104,11 @@ nav {
     padding: 60px 230px 40px 225px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
+
 nav ul li {
     /* display: inline; */
     /* aita dile list style and flex(flex er bitore align item) deoa lage na  */
@@ -108,28 +121,34 @@ ul li a {
     text-decoration: none;
     font-size: 1.2rem;
 }
-.mary-at-nav{
+
+.mary-at-nav {
     font-weight: 800;
     font-size: 2.8rem;
 }
+
 /* banner information */
 .banner-section {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     margin: 0px 35px 0 230px;
 }
-.banner-info{
+
+.banner-info {
     max-width: 585px;
 }
-.hi-i-am{
+
+.hi-i-am {
     font-size: 2.8rem;
     font-weight: 600
 }
-.mary-hardy{
+
+.mary-hardy {
     font-size: 5.35rem;
     font-weight: bold;
 }
+
 .Contact-btn {
     padding: 18px 24px;
     font-weight: bold;
@@ -147,7 +166,7 @@ ul li a {
     max-width: 584px;
     margin-left: 163px;
 } */
- /* uporer banner-img-div ta dile img er niche ekto gap thake .eta div er default gap.margin,padding 0 diye o gap sorano jai na.*/
+/* uporer banner-img-div ta dile img er niche ekto gap thake .eta div er default gap.margin,padding 0 diye o gap sorano jai na.*/
 .banner-img {
     width: 584px;
 }
@@ -160,126 +179,181 @@ ul li a {
     text-align: center;
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
 }
-.item-type{
+
+.item-type {
     font-size: 1.2rem;
 }
 
 /* what i do section styles */
-.what-i-do-info{
+.what-i-do-info {
     text-align: center;
     max-width: 909px;
     margin: 0 auto;
 }
-.skill-card-container{
+
+.skill-card-container {
     display: flex;
     gap: 24px;
 }
-.skill-card{
+
+.skill-card {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
 }
-.skill-card p{
+
+.skill-card p {
     max-width: 200px;
 }
+
 /* resume styles */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 70px;
 }
-.resume-main-titles{
+
+.resume-main-titles {
     font-size: 1.8rem;
     font-weight: bold;
     color: rgba(71, 71, 71, 1);
     padding-top: 110px;
 }
-.resume-heading{
+
+.resume-heading {
     font-weight: 700;
     font-size: 1.5rem;
-    color:rgba(71, 71, 71, 1);
+    color: rgba(71, 71, 71, 1);
     padding: 30px 0 10px 0;
 }
-.institutions{
+
+.institutions {
     font-size: 1.2rem;
     font-weight: 600;
     color: rgba(117, 117, 117, 1);
     padding-bottom: 20px;
 }
-.experience-bg,.educational-bg{
+
+.experience-bg,
+.educational-bg {
     padding-right: 20px;
     max-width: 511px;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 5px;
     color: rgba(209, 209, 209, 1);
 }
 
-.resume-btn{
-    margin-top:50px;
+.resume-btn {
+    margin-top: 50px;
 }
 
 /* footer styles */
-.footer-colum{
+.footer-colum {
     width: 50%;
 }
-.footer-colum-one-pera{
+
+.footer-colum-one-pera {
     padding: 20px 0px 30px 0px;
     max-width: 562px;
 }
-.colum-one-links{
-}
-#id-padding-x-icon{
+
+#id-padding-x-icon {
     padding: 0 24px;
 }
-footer input[type="text"], footer input[type="email"], footer textarea{
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
     width: 100%;
     height: 64px;
     background-color: white;
     color: rgba(117, 117, 117, 1);
     display: block;
     padding: 18px 30px;
-    margin-bottom:24px ;
+    margin-bottom: 24px;
     border: none;
     border-radius: 5px;
 }
+
 /* responsive for small devices */
 @media screen and (max-device-width: 576px) {
-    nav, .resume-container,.skill-card-container,.about-items,.banner-section,nav ul,nav,footer{
+
+    nav,
+    .resume-container,
+    .skill-card-container,
+    .about-items,
+    .banner-section,
+    nav ul,
+    nav,
+    footer {
         flex-direction: column;
     }
-    header{
+
+    header {
         background-image: none;
     }
-    .banner-img,.footer-colum{
+    .banner-img,
+    .footer-colum {
         width: 100%;
     }
-    nav ul li{
-        padding: 20px;
+
+    nav ul li ,nav{
+        padding: 20px 0;
+        margin: 0;
     }
-    .btn-primary{
+
+    .btn-primary,
+    .about-item-info,
+    .footer-colum h3{
         margin-bottom: 20px;
     }
-    .about-section,.resume-container, .banner-section,.what-i-do-info,.resume-main-titles,footer{
+main section,
+.resume-btn{
+    margin: 20px 0;
+}
+    .about-section,
+    .resume-container,
+    .banner-section,
+    .what-i-do-info,
+    .resume-main-titles,
+    footer {
         margin: 20px;
         padding: 20px;
+    }
+    .skill-card{
+        margin: 0 auto;
+    }
+    .resume-heading{
+        padding-top: 0;
     }
 }
 
 /* responsive for medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
-    nav,.banner-section{
+
+    nav,
+    .banner-section {
         flex-direction: column;
         gap: 20px;
-    } 
-main section{
-    margin: 20px;
-    padding: 20px;
-} 
-.skill-card-container{
-    flex-wrap: wrap;
-}
+    }
+
+    main section, .about-section, footer{
+        margin: 20px;
+        padding: 20px;
+    }
+    .resume-main-titles{
+        padding-top: 40px;
+    }
+
+    .skill-card-container, .about-items,.resume-container {
+        flex-wrap: wrap;
+    }
+    .skill-card {
+        margin: 0 auto;
+    }
 }
